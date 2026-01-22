@@ -49,6 +49,9 @@ export default () => {
         break
       case 'comp':
         result = await contract.fetchComponent(id)
+        break
+      default:
+        result = await contract.fetchAircraft(id)
     }
     setContent(getData(result))
   }

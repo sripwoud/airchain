@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import { useStoreState } from 'easy-peasy'
-import { Flex, Box } from 'rimble-ui'
+import { Box } from 'rimble-ui'
 
 import Layout from './components/Layout'
 import CustomerForm from './components/CustomerForm'
